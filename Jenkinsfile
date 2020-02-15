@@ -11,7 +11,11 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
+<<<<<<< HEAD
         app = docker.build("/docker")
+=======
+        app = docker.build("selvin07/jenkns-devops")
+>>>>>>> 9918a04f828913ccace2b7d260a1c359bf5f4e36
     }
 
     stage('Test image') {
